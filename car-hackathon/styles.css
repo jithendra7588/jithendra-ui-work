@@ -1,0 +1,792 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: Work Sans;
+    overflow-x: hidden;
+    background-color: #c0c7ce;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.display-flex {
+    display: flex;
+}
+
+header {
+    padding: 20px 60px;
+    width: 100%;
+    line-height: 60px;
+}
+
+main {
+    padding: 50px 60px;
+    width: 100%;
+}
+
+.homepage-img {
+    width: 60%;
+    margin-left: -60px;
+    margin-top: 80px;
+}
+
+.right-container {
+    padding-top: 50px;
+    padding-right: 200px;
+}
+
+.right-container span:nth-child(1) {
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 8px 17px;
+    display: block;
+    width: fit-content;
+}
+
+.right-container span:nth-child(2) {
+    font-size: 45px;
+    display: block;
+    letter-spacing: 10px;
+    margin-top: 30px;
+}
+
+.right-container span:nth-child(3) {
+    font-size: 70px;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.right-container span:nth-child(4),
+.right-container span:nth-child(5) {
+    font-size: 20px;
+    display: block;
+}
+
+.right-container span:nth-child(4) {
+    line-height: 30px;
+}
+
+.right-container span:nth-child(5) {
+    margin: 15px 0;
+    ;
+}
+
+.right-container a {
+    color: white;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 10px 30px;
+    background-color: #2955e4;
+    font-size: 20px;
+    display: block;
+    margin-top: 40px;
+}
+
+header>* {
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+button,
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.marginzero {
+    margin: 0px;
+}
+
+.inline {
+    display: inline;
+}
+
+.right-float {
+    float: right;
+}
+
+.navbar {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.navbar>ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.navbar>ul>li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar>ul>li>a {
+    color: black;
+    font-size: 17px;
+}
+
+.account-btn {
+    font-size: 16px;
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    float: right;
+    margin-top: 13px;
+    box-shadow: 0px 2px 14px #463F5F1A;
+    letter-spacing: 1px;
+}
+
+.introimg {
+    width: 500px;
+    transform: perspective(3500px) rotate3D(0, 1, 0, 30deg);
+}
+
+.ab {
+    padding-top: 40px;
+    position: relative;
+    width: fit-content;
+    transform: rotate(2deg);
+    margin: auto;
+}
+
+.wheel-cover2 {
+    position: absolute;
+    top: 280px;
+    right: 81px;
+    width: 40px;
+    height: 60px;
+    background-color: #c0c7ce;
+}
+
+.wheel-cover1 {
+    position: absolute;
+    top: 238px;
+    right: 380px;
+    width: 15px;
+    height: 85px;
+    background-color: #c0c7ce;
+    transform: rotate(2deg);
+}
+
+
+.series-image {
+    position: relative;
+    width: 70%;
+}
+
+.carmodels {
+    width: 950px;
+}
+
+
+.revuelto-model,
+.huracan-model {
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+
+.urus-model {
+    position: absolute;
+    width: 800px;
+    top: 130px;
+    left: 80px;
+}
+
+.series-info {
+    width: 30%;
+    background-color: #d7e0ec;
+    padding: 30px 0;
+    padding-bottom: 0;
+    border-radius: 50px;
+}
+
+.chevron {
+    font-size: 25px;
+    width: 15%;
+    height: 50px;
+    text-align: center;
+}
+
+.series-logo {
+    width: 70%;
+    height: 50px;
+}
+
+.info {
+    padding: 10px 30px;
+    font-size: 19px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block;
+}
+
+.container {
+    padding-top: 80px;
+    justify-content: center;
+}
+
+.item {
+    width: fit-content;
+    background-color: #aab4bd;
+    border: 1px solid #898c8f;
+    border-radius: 50px;
+    padding-bottom: 35px;
+    margin: 15px;
+}
+
+.item img {
+    width: 380px;
+    height: 210px;
+    border-radius: 50px;
+}
+
+.product-info {
+    padding: 15px 30px;
+}
+
+.product-info>* {
+    margin: 0;
+}
+
+.product-info i {
+    padding-right: 10px;
+}
+
+.series {
+    font-size: 30px;
+}
+
+.model {
+    font-size: 22px;
+}
+
+.feature {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.power,
+.max-speed,
+.speedup {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.price {
+    font-size: 23px;
+    line-height: 60px;
+}
+
+.customize-btn {
+    font-size: 20px;
+    color: white;
+    width: 70%;
+    background-color: rgb(44, 43, 43);
+    border: 1px solid #7a8084;
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin-left: 83px;
+}
+
+.img-container {
+    width: 65%;
+    margin-right: 20px;
+    box-shadow: 0px 2px 14px #463F5F1A;
+}
+
+.scale-image {
+    clip-path: inset(80px 130px);
+    transform: scale(1.3)
+}
+
+.features-container {
+    width: 30%;
+    padding: 35px 40px;
+    background-color: #dbdbdb;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.exterior-head,
+.interior-head,
+.fare-head {
+    font-size: 20px;
+    text-align: center;
+}
+
+.exterior-head h3,
+.interior-head h3,
+.fare-head h3 {
+    display: inline;
+}
+
+.exterior-head i,
+.interior-head .fa-chevron-right {
+    float: right;
+    padding: 0;
+    height: unset;
+    width: unset;
+    margin: 0;
+}
+
+.interior-head .fa-chevron-left,
+.fare-head .fa-chevron-left {
+    float: left;
+    padding: 0;
+    height: unset;
+    width: unset;
+    margin: 0;
+
+}
+
+.sectionone img {
+    width: 75px;
+    height: 65px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sectiontwo img,
+.inner-container img {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sectionone>div,
+.sectiontwo>div,
+.inner-container>div {
+    text-align: center;
+    margin: 8px 15px;
+    width: min-content;
+}
+
+.customcolor,
+.customwheel {
+    line-height: 50px;
+    font-size: 20px;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+table {
+    margin: auto;
+    margin-top: 30px;
+}
+
+tfoot tr:nth-child(odd),
+tbody tr:nth-child(odd) {
+    background-color: #a9a9a9;
+}
+
+th,
+td {
+    padding: 10px 40px;
+}
+
+
+@media only screen and (min-width: 921px) and (max-width:1100px) {}
+
+
+@media only screen and (min-width: 601px) and (max-width:920px) {
+    .navbar {
+        display: none;
+    }
+
+    .navbar>ul>li {
+        padding: 4px;
+    }
+
+    header {
+        padding: 45px;
+        width: 100%;
+        line-height: 60px;
+    }
+
+    .container-series {
+        display: unset;
+    }
+
+    .series-image {
+        width: 100%;
+        display: block;
+    }
+
+    .carmodels {
+        width: 100%;
+    }
+
+    main {
+        padding: 20px 20px;
+        padding-bottom: 80px;
+    }
+
+    .series-image {
+        position: unset;
+    }
+
+    .revuelto-model,
+    .huracan-model,
+    .urus-model {
+        position: unset;
+    }
+
+    .revuelto-model,
+    .huracan-model {
+        margin-top: -80px;
+        margin-left: -40px;
+        transform: scale(1.2);
+    }
+
+    .urus-model {
+        margin-top: 150px;
+        margin-bottom: 80px;
+    }
+
+    .series-info {
+        width: 70%;
+        padding: 10px 0;
+        margin: 50px auto;
+    }
+
+    .series-info .chevron {
+        height: unset;
+    }
+
+    .series-info img,
+    .series-info img {
+        height: 25px;
+    }
+
+    .outer-container {
+        display: unset;
+    }
+
+    .img-container {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .scale-image {
+        clip-path: inset(40px 70px);
+        transform: scale(1.4);
+    }
+
+    .features-container {
+        width: 80%;
+        margin: auto;
+        padding: 20px 40px;
+        margin-top: 20px;
+    }
+
+    .features-container .fa-chevron-left {
+        margin-left: 15px;
+    }
+
+    .features-container .fa-chevron-right {
+        margin-right: 15px;
+    }
+
+    .sectionone img {
+        width: 135px;
+        height: 120px;
+    }
+
+    .sectiontwo img,
+    .inner-container img {
+        width: 200px;
+        height: 200px;
+    }
+
+    table {
+        margin: 15px auto;
+    }
+
+    tfoot tr:nth-child(odd),
+    tbody tr:nth-child(odd) {
+        background-color: #a9a9a9;
+    }
+
+    th,
+    td {
+        padding: 5px 20px;
+    }
+
+    .container {
+        display: unset;
+    }
+
+    .item {
+        display: inline-block;
+    }
+
+    .container-home {
+        display: block;
+    }
+
+    .homepage-img {
+        display: none
+    }
+
+    .right-container {
+        padding: 50px 60px;
+    }
+
+    .right-container span:nth-child(1) {
+        font-size: 23px;
+    }
+
+    .right-container span:nth-child(2) {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .right-container span:nth-child(3) {
+        font-size: 70px;
+        margin-bottom: 30px;
+        line-height: 90px;
+    }
+
+    .right-container span:nth-child(4),
+    .right-container span:nth-child(5) {
+        font-size: 27px;
+    }
+
+    .right-container span:nth-child(4) {
+        line-height: 40px;
+    }
+
+    .right-container span:nth-child(5) {
+        margin: 30px 0;
+        ;
+    }
+
+    .right-container a {
+        padding: 10px 30px;
+        font-size: 25px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 30px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .container-series {
+        display: unset;
+    }
+
+    .series-image {
+        width: 100%;
+        display: block;
+    }
+
+    .carmodels {
+        width: 100%;
+    }
+
+    .series-info {
+        width: 100%;
+    }
+
+    .info {
+        display: none;
+    }
+
+    main {
+        padding: 20px 20px;
+        padding-bottom: 80px;
+    }
+
+    .container {
+        display: unset;
+    }
+
+    .item {
+        display: block;
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    .item img {
+        width: 100%;
+        height: unset;
+    }
+
+    .customize-btn {
+        margin-left: 55px;
+    }
+
+    .series-image {
+        position: unset;
+    }
+
+    .revuelto-model,
+    .huracan-model,
+    .urus-model {
+        position: unset;
+    }
+
+    .revuelto-model,
+    .huracan-model {
+        margin-top: -10px;
+        margin-left: -10px;
+        transform: scale(1.1);
+    }
+
+    .urus-model {
+        margin-top: 50px;
+        margin-bottom: 6px;
+    }
+
+    .series-info {
+        padding: 10px 0;
+        margin: 50px 0;
+    }
+
+    .series-info .chevron {
+        height: unset;
+    }
+
+    .series-info img,
+    .series-info img {
+        height: 25px;
+    }
+
+    .outer-container {
+        display: unset;
+    }
+
+    .img-container {
+        width: 100%;
+    }
+
+    .scale-image {
+        clip-path: inset(40px 70px);
+        transform: scale(1.4);
+    }
+
+    .features-container {
+        width: 90%;
+        margin: auto;
+        padding: 20px 20px;
+        margin-top: 20px;
+    }
+
+    .features-container .fa-chevron-left {
+        margin-left: 15px;
+    }
+
+    .features-container .fa-chevron-right {
+        margin-right: 15px;
+    }
+
+    .sectionone img {
+        width: 55px;
+        height: 45px;
+    }
+
+    .sectiontwo img,
+    .inner-container img {
+        width: 100px;
+        height: 100px;
+    }
+
+    table {
+        margin: 15px auto;
+    }
+
+    tfoot tr:nth-child(odd),
+    tbody tr:nth-child(odd) {
+        background-color: #a9a9a9;
+    }
+
+    th,
+    td {
+        padding: 5px 20px;
+    }
+
+    .container-home {
+        display: block;
+        padding: 0;
+        width: 100%;
+    }
+
+    .homepage-img {
+        display: none
+    }
+
+    .right-container {
+        padding: 40px 5px;
+        width: 100%;
+    }
+
+    .right-container span:nth-child(1) {
+        font-size: 15px;
+        border-radius: 50px;
+        padding: 8px 17px;
+    }
+
+    .right-container span:nth-child(2) {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+    .right-container span:nth-child(3) {
+        font-size: 38px;
+        margin-bottom: 30px;
+        line-height: 60px;
+    }
+
+    .right-container span:nth-child(4),
+    .right-container span:nth-child(5) {
+        font-size: 17px;
+    }
+
+    .right-container span:nth-child(4) {
+        line-height: 30px;
+    }
+
+    .right-container span:nth-child(5) {
+        margin: 18px 0;
+        ;
+    }
+
+    .right-container a {
+        padding: 10px 30px;
+        font-size: 18px;
+        display: block;
+    }
+
+}

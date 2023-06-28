@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kraya</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+</head>
+
+<body>
+    <header>
+        <div class="upper-head">
+            <div class="aligncentre container">
+                <span class="upperheader-font mobile needhelp"><i class="needhelp-icon fas fa-phone"></i>NEED
+                    HELP?</span>
+                <span class="upperheader-font item1 upper-head-items"><i class="icon2 far fa-user"></i>JITHENDRA<i
+                        class="icon1 fas fa-chevron-down"></i></span>
+                <span class="item2 upper-head-items"><span class="desktop">CART</span><i
+                        class="badge-parent icon1 fas fa-shopping-bag"><span
+                            class="addtocart-badge badge-child"></span></i></span>
+                <span class="item3 upper-head-items"><span class="desktop">WISHLIST</span><i
+                        class="badge-parent icon1 far fa-heart"><span
+                            class="wishlist-badge badge-child"></span></i></span>
+            </div>
+        </div>
+        <div class="lower-head">
+            <div class="container lower-container">
+                <h1 class="logo-text">KRAYA.</h1>
+                <nav class="desktop navbar">
+                    <ul>
+                        <li><a href="#">PHONE</a></li>
+                        <li><a href="#">TELEVISION</a></li>
+                        <li><a href="#">REFRIGERATOR</a></li>
+                        <li><a href="#">LAPTOP</a></li>
+                        <li><a href="#">WASHING MACHINE</a></li>
+                        <li><a href="#">DOWNLOADS</a></li>
+                    </ul>
+                </nav>
+                <div class="search-box">
+                    <input class="product-search" type="text" placeholder="Search for Products">
+                    <i class="search-icon fas fa-search"></i>
+                </div>
+                <!--search bar here-->
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="body-container">
+                <!--desktop filter-->
+                <aside class="filters-container">
+                    <h4 class="marginzero">HOME / MOBILES</h4>
+                    <div class="bordershadow">
+                        <div class="filter-items">
+                            <span class="filter-heading inline marginzero"><b>FILTERS</b></span>
+                            <span class="clearall right-float">CLEAR ALL</span>
+                        </div>
+                        <div class="filter-items">
+                            <label class="inline marginzero">Price</label>
+                            <i class="filters-dropdown right-float fas fa-angle-down"></i>
+                            <div id="filter-dd1" class="filter-dd-item">
+                                <div class="slider-range">
+                                    <input type="range" class="sliderrange-min" min="600" max="750" value="600">
+                                    <input type="range" class="sliderrange-max" min="751" max="900" value="900"> 
+                                    <input type="number" class='min-value' placeholder="min" value="500">
+                                    <input type="number" class='max-value' placeholder="max" value="900">                  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-items">
+                            <label class="inline marginzero">Brand</label>
+                            <i class="filters-dropdown right-float fas fa-angle-down"></i>
+                            <div id="filter-dd2" class="filter-dd-item">
+                                <form>
+                                    <span>
+                                        <input type="checkbox" value="apple">
+                                        <label>Apple</label><br>
+                                        <input type="checkbox" value="asus">
+                                        <label>Asus</label><br>
+                                    </span>
+                                    <span>
+                                        <input type="checkbox" value="sony">
+                                        <label>Sony</label><br>
+                                        <input type="checkbox" value="honor">
+                                        <label>Honor</label><br>
+                                    </span>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="filter-items">
+                            <label class="inline marginzero">Battery Capacity</label>
+                            <i class="filters-dropdown right-float fas fa-angle-down"></i>
+                        </div>
+                        <div class="filter-items">
+                            <label class="inline marginzero">Screen Size</label>
+                            <i class="filters-dropdown right-float fas fa-angle-down"></i>
+                        </div>
+                        <div class="filter-items">
+                            <label class="inline marginzero">RAM</label>
+                            <i class="filters-dropdown right-float fas fa-angle-down"></i>
+                        </div>
+                        <div class="filter-items">
+                            <label class="inline marginzero">Customer Ratings</label>
+                            <i class="filters-dropdown right-float fas fa-angle-down"></i>
+                        </div>
+                        <div class="filter-items">
+                            <label class="inline marginzero">Camera</label>
+                            <i class="filters-dropdown right-float fas fa-angle-down"></i>
+                        </div>
+                        <div class="filter-items">
+                            <label class="inline marginzero">Resolution Type</label>
+                            <i class="filters-dropdown right-float fas fa-angle-down"></i>
+                        </div>
+                    </div>
+                </aside>
+                
+                <div class="flex-container">
+                    <!--mobile filters(inside right half)-->
+                    <div class="mobile sort-filter">
+                        <button class="mb-sortby" type="button">
+                            <h4 class="marginzero"><i class="fas fa-sort-amount-up-alt"></i>SORT BY</h4>
+                            <!--showup on clicking sortby in mobile-->
+                            <div class="popup1 mb-sort">
+                                <ul class="sortby marginzero">
+                                    <li>
+                                        <h4 class="marginzero">Sort By</h4>
+                                    </li>
+                                    <li class="closeonclick sortbyrating"><a href="#">Ratings</a></li>
+                                    <li class="closeonclick sortbyprice"><a href="#">Price Low-High</a></li>
+                                    <li class="closeonclick sortbynew"><a href="#">Newest First</a></li>
+                                </ul>
+                            </div>
+                        </button>
+                        <button class="mb-filter" type="button">
+                            <h4 class="marginzero"><i class="fas fa-filter"></i>FILTERS</h4>
+                            <!--showup on clicking filters in mobile-->
+                            <div class="popup2 mb-filter">
+                                <form>
+                                    <input type="checkbox" value="apple">
+                                    <label>Apple</label><br>
+                                    <input type="checkbox" value="asus">
+                                    <label>Asus</label><br>
+                                    <input type="checkbox" value="sony">
+                                    <label>Sony</label><br>
+                                    <input type="checkbox" value="honor">
+                                    <label>Honor</label><br>
+                                </form>
+                            </div>
+                        </button>
+                    </div>
+                    <!--showing count of found results-->
+                    <div class="mobile mb-flexitems-count"></div>
+                    <div class="count-sort">
+                        <span class="flexitems-count"></span>
+                        <span class="sort-span">
+                            <ul class="sortby marginzero">
+                                <li>
+                                    <h4 class="marginzero">Sort By</h4>
+                                </li>
+                                <li class="sortbyrating glowon-hover">Ratings</li>
+                                <li class="sortbyprice glowon-hover">Price Low-High</li>
+                                <li class="sortbynew glowon-hover">Newest First</li>
+                            </ul>
+                        </span>
+                    </div>
+                    <!--each product is appended here-->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container scrolltop-parent">
+            <span class="scrolltop scrolltop-child"
+                class="scrolltop-child"><i class="fas fa-angle-up"></i></span>
+            <div class="upper-footer">
+                <div class="upper-left">
+                    <span class="maintext marginzero">LET’S STAY IN TOUCH</span>
+                    <span class="marginzero">Get updates on sales specials and more</span>
+                </div>
+                <div class="upper-middle">
+                    <div class="marginzero email-div">
+                        <input type="email" id="email" placeholder="Email address">
+                        <label class="subscribe-text" for="Email">SUBSCRIBE</label>
+                    </div>
+                </div>
+                <div class="upper-right">
+                    <span class="maintext marginzero">FOLLOW KRAYA.<i
+                            class="followus-icon fab fa-facebook-square"></i><i
+                            class="followus-icon fab fa-twitter"></i><i
+                            class="followus-icon fab fa-youtube"></i><i
+                            class="followus-icon fab fa-instagram"></i></span>
+                    <span class="marginzero">We want to hear from you</span>
+                </div>
+            </div>
+            <div class="middle-footer">
+                <div class="middle-left">
+                    <ul>
+                        <li class="flist-heading">
+                            <h3>ABOUT</h3>
+                        </li>
+                        <li class="flist-content">About Us</li>
+                        <li class="flist-content">Careers</li>
+                        <li class="flist-content">Blog</li>
+                        <li class="flist-content">News</li>
+                    </ul>
+                    <ul>
+                        <li class="flist-heading">
+                            <h3>SUPPORT</h3>
+                        </li>
+                        <li class="flist-content">Payment</li>
+                        <li class="flist-content">Shipping</li>
+                        <li class="flist-content">Cancellation & Returns</li>
+                        <li class="flist-content">FAQs</li>
+                    </ul>
+                    <ul>
+                        <li class="flist-heading">
+                            <h3>POLICY</h3>
+                        </li>
+                        <li class="flist-content">Terms of Use</li>
+                        <li class="flist-content">Privacy Policy</li>
+                        <li class="flist-content">Intellectual Property</li>
+                        <li class="flist-content">Sitemap</li>
+                        <li class="flist-content">Security</li>
+                    </ul>
+                    <ul>
+                        <li class="flist-heading">
+                            <h3>MAIL US</h3>
+                        </li>
+                        <li class="flist-content">17187 N. Laurel Park Dr., Ste. 110 Livonia, MI 48152 USA</li>
+                    </ul>
+                </div>
+                <div class="middle-right">
+                    <h2 class="marginzero">1800 123 4567</h2>
+                    <span class="servicehours marginzero">Service hours: 09:00-21:00</span>
+                    <button class=" marginzero chatsupport-btn" type="button">CHAT SUPPORT</button>
+                    <span class="payment-method marginzero">PAYMENT METHODS</span>
+                    <img class="payment-logo"
+                        src="data:image/png;base64,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"
+                        alt="payment logo here">
+                    <img class="payment-logo" src="https://logowik.com/content/uploads/images/787_mastercard.jpg"
+                        alt="payment logo here">
+                    <img class="payment-logo"
+                        src="https://i.pinimg.com/736x/b3/d7/85/b3d7853a11dcc8c424866915ddd4d3e3--credit-cards-icons.jpg"
+                        alt="payment logo here">
+                    <img class="payment-logo"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSET3MmuYAMomTkMef-i__Khl1V0_gXGojZxg&usqp=CAU"
+                        alt="payment logo here">
+                    <img class="payment-logo" src="https://spotforum.in/wp-content/uploads/2017/09/Paypal-Logo.png"
+                        alt="payment logo here">
+                </div>
+            </div>
+            <div class="lower-footer">
+                <span>Copyright © 2010 - 2018 commerce factory. All Rights Reserved</span>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script type="module" src="./app.js"></script>
+</body>
+
+</html>

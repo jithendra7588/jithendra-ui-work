@@ -1,0 +1,50 @@
+[
+    {
+        "Standard": 265000,
+        "Tecnica": 297000,
+        "STO": 314000,
+        "Evo Spyder": 325000,
+        "S": 352000,
+        "Performante": 371000
+    },
+    {
+        "Orange": 5000,
+        "Blue": 5200,
+        "Green": 5250,
+        "Violet": 5350,
+        "Lightgreen": 5840,
+        "Black": 5830,
+        "Yellow": 6000,
+        "Red": 6150,
+        "Darkgrey": 6280,
+        "Meroon": 6390,
+        "White": 6540
+    },
+    {
+        "Altanero": 2150,
+        "Triguero": 2195,
+        "Damiso": 2380,
+        "Forged": 2400,
+        "Monolock": 2430,
+        "Magnesio": 2490,
+        "Aesir": 2860,
+        "Narviforged": 2900,
+        "Asterope": 3000,
+        "Nath": 3050,
+        "Helianthus": 3180,
+        "Pelope": 3220
+    },
+    {
+        "Contrast Color Trim": 4000,
+        "Classica Trim": 4230,
+        "Bicolor Trim with Laser Graphic": 4380,
+        "Bicolor Leather & Alcantara": 4460,
+        "Sportivo Alcantara Unicolor": 4555,
+        "Sportivo Alcantara Bicolor": 4620,
+        "Unicolor Leather": 4670,
+        "Sportivo Leather Bicolor": 4700,
+        "Bicolor Sofisticato Leather": 4730,
+        "Unicolor Alcantara": 4800,
+        "Bicolor Sportivo Alcantara": 4840
+    }
+]

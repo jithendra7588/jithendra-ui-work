@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design your own car</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./img/lamborghini-logo.svg" alt="Logo Here">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">MODELS</a></li>
+                <li><a href="#">CUSTOMER AREA</a></li>
+                <li><a href="#">INNOVATION</a></li>
+                <li><a href="#">STORE</a></li>
+                <li><a href="#">QUICK LINKS</a></li>
+            </ul>
+        </nav>
+        <button class="account-btn">REGISTER</button>
+    </header>
+    <main>
+        <div class="outer-container display-flex">
+            <img class="img-container" src="">
+            <div class="features-container">
+                <div class="container-ext">
+                    <div class="exterior-head">
+                        <h3>Exterior</h3><i class="fas fa-chevron-right chevron"></i>
+
+                    </div>
+                    <br>
+                    <span class="customcolor">Color</span>
+                    <div class="sectionone display-flex">
+                        <div>
+                            <img src="">
+                            <span></span>
+                        </div>
+                        <div>
+                            <img src="">
+                            <span></span>
+                        </div>
+                    </div>
+                    <br>
+                    <span class="customwheel">Wheels</span>
+                    <div class="sectiontwo display-flex">
+                        <div>
+                            <img src="">
+                            <span></span>
+                        </div>
+                        <div>
+                            <img src="">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-int display-none">
+                    <div class="interior-head"><i class="fas fa-chevron-left chevron"></i>
+                        <h3>Interior</h3><i class="fas fa-chevron-right chevron"></i>
+                    </div>
+                    <br>
+                    <span class="customcolor">Seat Color & Trim</span>
+                    <div class="inner-container display-flex">
+                        <div>
+                            <img src="">
+                            <span>Contrast Color Trim</span>
+                        </div>
+                        <div>
+                            <img src="">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="fare-container display-none">
+                    <div class="fare-head"><i class="fas fa-chevron-left chevron"></i>
+                        <h3>Price</h3>
+                    </div>
+                    <br>
+                    <div class="price-breakup display-flex">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Feature</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Base Price</td>
+                                    <td class="addon-price"></td>
+                                </tr>
+                                <tr>
+                                    <td>Color</td>
+                                    <td class="addon-price"></td>
+                                </tr>
+                                <tr>
+                                    <td>Wheels</td>
+                                    <td class="addon-price"></td>
+                                </tr>
+                                <tr>
+                                    <td>Seat Color</td>
+                                    <td class="addon-price"></td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td>Total</td>
+                                    <td class="total-price"></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script type="module" src="./customize.js"></script>
+</body>
+
+</html>

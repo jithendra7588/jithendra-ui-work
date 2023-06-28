@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "series": "Revuelto",
+        "model": "Standard",
+        "features": ["1015CV", ">350km/h", "2.5s"],
+        "img-path": "https://www.topgear.com/sites/default/files/2023/04/Screenshot%202023-04-03%20at%2010.49.09%20copy.jpg",
+        "baseprice": "$2,65,000"
+    },
+    {
+        "id": 2,
+        "series": "Huracan",
+        "model": "Tecnica",
+        "features": ["640CV", ">325km/h", "3.2s"],
+        "img-path": "https://imgd.aeplcdn.com/0x0/n/cw/ec/130671/huracan-tecnica-exterior-right-front-three-quarter-3.jpeg?isig=0",
+        "baseprice": "$2,97,000"
+    },
+    {
+        "id": 3,
+        "series": "Huracan",
+        "model": "STO",
+        "features": ["640CV", ">310km/h", "3.0s"],
+        "img-path": "https://www.thesupercarblog.com/wp-content/uploads/2021/11/Lamborghini-Huracan-STO-Red-1.jpg",
+        "baseprice": "$3,14,000"
+    },
+    {
+        "id": 4,
+        "series": "Huracan",
+        "model": "Evo Spyder",
+        "features": ["640CV", ">325km/h", "3.1s"],
+        "img-path": "https://imgd.aeplcdn.com/0x0/n/cw/ec/95475/huracan-evo-spyder-exterior-right-side-view.jpeg?isig=0",
+        "baseprice": "$3,25,000"
+    },
+    {
+        "id": 5,
+        "series": "Urus",
+        "model": "S",
+        "features": ["666CV", ">305km/h", "3.5s"],
+        "img-path": "https://m.atcdn.co.uk/vms/media/8ee71cba75c34da3b06684a94f6d8eae.jpg",
+        "baseprice": "$3,52,000"
+    },
+    {
+        "id": 6,
+        "series": "Urus",
+        "model": "Performante",
+        "features": ["666CV/490kW", "306 km/h", "3.3s"],
+        "img-path": "https://imgd.aeplcdn.com/1280x720/n/cw/ec/53859/urus-performante-exterior-right-front-three-quarter-3.jpeg?isig=0&q=75",
+        "baseprice": "$3,71,000"
+    },
+    {
+        "series": ["revuelto-model", "huracan-model", "urus-model"],
+        "img-path": ["https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/families-gallery/2023/revuelto/revuelto_m.png",
+                    "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/model_choose/2023/huracan_sterrato_m.png",
+                    "https://www.pngmart.com/files/22/Lamborghini-Urus-PNG-Photos.png"],
+        "series-logo": ["https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2023/revuelto.png",
+                        "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/Hurac%C3%A1n_logo.png",
+                        "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/Image%2034.png"],
+        "info": ["The Revuelto is the beginning of a new era for Lamborghini, who has harnessed the power of hybridization technology to create the first HPEV (High Performance Electrified Vehicle). Responding to the need for sustainability and powerful performance, the Lamborghini Revuelto rewrites all paradigms and represents a technical masterpiece beyond anyones imagination. The iconic V12 engine finds a new life in this futuristic automotive masterwork that delivers unparalleled performance and driving emotions.",
+                "From our past, we've learned perfection. This is how the first model of the Lamborghini Huracán was born. More performance, more control, more innovation. The Huracán is equipped with a powerful V10 engine and the latest technologies to perform at its absolute best. Engineered to guarantee the best performance and control under any driving condition, it's easy to take to the limit, not to mention extremely fun, thanks to technology like the LDF dual clutch gearbox and the electronically-controlled four-wheel drive.",
+                "Lamborghini Urus is the worlds first Super Sport Utility Vehicle, in which luxury, sportiness and performance meet comfort and versatility. It offers best-in-class driving dynamics, alongside its unmistakable elegance of design. Urus embodies the characteristics of multiple souls: sporty, elegant and off-road, and has a suitability for everyday driving in a range of environments. With its surprisingly distinct engine sound, combined with high performance, Lamborghini Urus is anything but typical."]
+    }
+]

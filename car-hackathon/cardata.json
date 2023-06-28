@@ -1,0 +1,38 @@
+[
+    {
+        "model": "Standard",
+        "color": ["Orange","Blue"],
+        "wheels": ["Altanero", "Triguero"],
+        "interior": ["Contrast Color Trim","Classica Trim"]
+    },
+    {
+        "model": "Tecnica",
+        "color": ["Green","Violet"],
+        "wheels": ["Damiso", "Forged"],
+        "interior": ["Bicolor Trim with Laser Graphic","Bicolor Leather & Alcantara"]
+    },
+    {
+        "model": "STO",
+        "color": ["Lightgreen","Black"],
+        "wheels": ["Monolock", "Magnesio"],
+        "interior": ["Sportivo Alcantara Unicolor","Sportivo Alcantara Bicolor"]
+    },
+    {
+        "model": "Evo Spyder",
+        "color": ["Yellow","Red"],
+        "wheels": ["Aesir", "Narviforged"],
+        "interior": ["Unicolor Leather","Sportivo Leather Bicolor"]
+    },
+    {
+        "model": "S",
+        "color": ["Darkgrey","Meroon"],
+        "wheels": ["Asterope", "Nath"],
+        "interior": ["Unicolor Leather","Bicolor Sofisticato Leather"]
+    },
+    {
+        "model": "Performante",
+        "color": ["White","Green"],
+        "wheels": ["Helianthus", "Pelope"],
+        "interior": ["Unicolor Alcantara","Bicolor Sportivo Alcantara"]
+    }
+]
